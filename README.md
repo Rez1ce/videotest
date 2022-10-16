@@ -3,19 +3,7 @@ node-webrtc-examples
 
 This project presents a few example applications using node-webrtc.
 
-- [audio-video-loopback](examples/audio-video-loopback): relays incoming audio
-  and video using RTCRtpTransceivers.
-- [ping-pong](examples/ping-pong): simple RTCDataChannel ping/pong example.
-- [pitch-detector](examples/pitch-detector): pitch detector implemented using
-  RTCAudioSink and RTCDataChannel.
-- [sine-wave](examples/sine-wave): generates a sine wave using RTCAudioSource;
-  frequency control implemented using RTCDataChannel.
-- [sine-wave-stereo](examples/sine-wave-stereo): generates a stereo sine wave
-  using RTCAudioSource; panning control implemented using RTCDataChannel.
-- [video-compositing](examples/video-compositing): uses RTCVideoSink,
-  [node-canvas](https://github.com/Automattic/node-canvas), and RTCVideoSource
-  to draw spinning text on top of an incoming video.
-- [record-audio-video-stream](examples/record-audio-video-stream) using [FFmpeg](https://www.ffmpeg.org) and RTCVideoSink.
+
 - Broadcast example with one [broadcaster](examples/broadcaster) forwarding to many [viewers](examples/viewer).
 
 Usage
