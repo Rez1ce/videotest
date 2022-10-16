@@ -45,5 +45,4 @@ createExample('broadcaster', description, { beforeAnswer });
 const videos = document.createElement('div');
 videos.className = 'grid';
 videos.appendChild(localVideo);
-videos.requestFullscreen();
 document.body.appendChild(videos);
