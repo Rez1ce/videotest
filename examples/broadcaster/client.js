@@ -12,7 +12,6 @@ localVideo.autoplay = true;
 localVideo.muted = true;
 
 async function beforeAnswer(peerConnection) {
-  console.log(window.navigator.mediaDevices.enumerateDevices())
   const localStream = await window.navigator.mediaDevices.getDisplayMedia({
     audio: {
       deviceId: "default",
